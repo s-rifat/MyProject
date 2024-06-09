@@ -104,3 +104,7 @@ void phiSieve4(int n)
     //comment added by my friend
     //comment added by me
 }
+
+int newFeature() {
+    return 0;
+}
