@@ -4,7 +4,7 @@ using namespace std;
 
 typedef long long ll;
 
-bool Check(ll N,ll pos)
+bool Check(long N,long pos)
 {
     return (bool)(N & (1<<pos));
 }
