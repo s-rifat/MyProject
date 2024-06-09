@@ -101,5 +101,6 @@ void phiSieve4(int n)
     }
 
     //coment added
+    //comment added by my friend
     //comment added by me
 }
