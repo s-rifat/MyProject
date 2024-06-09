@@ -43,6 +43,8 @@ void phiSieve2(int n)
     for(int i=1; i<=n;i++)
         phi[i] = i;
 
+    //comment added
+
     for(int i=2; i<=n; i++ )
     {
         if(phi[i]==i)
@@ -56,7 +58,7 @@ void phiSieve2(int n)
     }
 }
 
-void phiSieve3(int n)
+void phiSieve3(long n)
 
 {
     for(int i=1; i<=n;i++)
@@ -75,4 +77,7 @@ void phiSieve3(int n)
     }
 
     //coment added
+}
+
+void test() {
 }
