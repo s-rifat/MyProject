@@ -4,6 +4,11 @@ using namespace std;
 
 typedef long long ll;
 
+bool Check2(long N,long pos)
+{
+    return (bool)(N & (1<<pos));
+}
+
 bool Check(long N,long pos)
 {
     return (bool)(N & (1<<pos));

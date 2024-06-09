@@ -108,3 +108,7 @@ void phiSieve4(int n)
 int newFeature() {
     return 0;
 }
+
+int test() {
+    //comment
+}
